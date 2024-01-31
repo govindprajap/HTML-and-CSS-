@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 350px;
+            width: 350px;
+            border: 2px solid red;
+            background-color: aqua;
+            /* transition-property:width; */
+            transition-property: all;
+            /* transition-property: font-size; */
+            transition-duration: 4s;
+            transition-delay: 1s;
+            transition-timing-function: linear;
+
+        }
+        .box:hover{
+            width: 1200px;
+            /* font-size: 45px; */
+            height: 1200px;
+            background-image: linear-gradient(red, blue,yellow);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Govind my name is govind
+    </div>
+</body>
+</html>

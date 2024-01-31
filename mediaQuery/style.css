@@ -1,0 +1,14 @@
+@media (max-width:600) {
+    body{
+        background-color: blueviolet;
+
+    }
+    div::after{
+        content: 'This for mobile responicve';
+    }
+    
+}
+div{
+    text-align: center;
+    font-size: 24px;
+}
